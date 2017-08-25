@@ -1,0 +1,17 @@
+As cheaply as possible, produce a centralized system which efficiently manages the movement of two elevators in a 6 story building.
+The attached 3rd party API contains two Interfaces and a Factory used to remotely interact with the hardware.
+This software will need to support the following user activities;
+·       Press Button to request a lift go up,
+·       Press Button request lift to go down,
+·       Press Button to stop lift,
+·       6 Buttons to select the 6 floors.
+The software needs to support a web page that allows a remote security team to know the status of the two elevators. (e.g. lift 4 is moving up to level 3.)
+You will need to provide a similar API that can be used to receive button press events, such that they can be provided to the hardware company to communicate with your software.
+Include a short detail about your approach and design, and how you ensure this is developed with minimum cost.
+This task will be used to validate ability to code within the following constraints / requirements;
+·       Maven build
+·       Utilize Spring framework
+·       REST API's
+·       Apache httpd
+·       Apache Tomcat
+·       JSP Templates
